@@ -1,0 +1,33 @@
+/*Prev-Next Navigation Styles*/
+.post-nav {
+	width:260px;
+	overflow:hidden;
+}
+.prev, .next, .prev a, .next a, .new, .old, .new a, .old a {
+	color:rgb(255,255,255);
+	background-color: rgb(196,199,228);
+	text-transform: uppercase;
+	float: left;
+	text-align: center;
+	font-family:"open_sansbold", sans-serif;
+}
+.prev, .next, .new, .old {
+	width: 125px;
+	height:40px;
+}
+.prev a, .next a, .new a, .old a {
+	width:95px;
+	height:30px;
+	padding: 7px 15px 3px;
+}
+.new a, .old a {
+	padding: 8px 0px 2px;
+	width:125px;
+	font-size: 1rem;
+}
+.prev, .new {
+	margin-right: 4px;
+}
+.prev a:hover, .prev a:focus, .next a:hover, .next a:focus, .new a:hover, .old a:hover, .new a:focus, .old a:focus {
+	background-color: rgb(80, 89, 173);
+}
